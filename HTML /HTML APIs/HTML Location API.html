@@ -1,1 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Web Development with Rakibul</title>
+</head>
+<body>
+    <h1 id="empty">Location Information</h1>
+    <button type="button" onclick="myPosition()">Get Location</button>
+
+    <script>
+        var h = document.getElementById("empty");
+
+        function myPosition() {
+            if (navigator.geolocation) {
+                navigator.geolocation.getCurrentPosition(showLocation);
+            } else {
+                h.innerHTML = "Geolocation is not supported by this browser.";
+            }
+        }
+
+        function showLocation(position) {
+            h.innerHTML = "Longitude: " + position.coords.longitude + ", Latitude: " + position.coords.latitude;
+        }
+    </script>
+</body>
+</html>
 
