@@ -1,1 +1,17 @@
+/* this is Selector*/
+body{
+    background-color: lightblue;
 
+}
+p{
+ color: brown;
+}
+h1{
+    color: blue;
+}
+#secondparagraph{
+    color: aliceblue;
+}
+.yellow{
+    border: 2px solid red;
+}
