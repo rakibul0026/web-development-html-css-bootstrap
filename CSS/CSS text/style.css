@@ -1,1 +1,48 @@
 
+body {
+    background: url("https://media.istockphoto.com/id/1666100556/photo/opening-door-to-the-nature.jpg?s=1024x1024&w=is&k=20&c=oiLJwo8GCuUq5xp3z0ysHeL_ajR_wXFMEMHF4v9otio=") no-repeat center center fixed;
+    background-size: cover;
+    margin: 0; /* Removes default margin */
+    font-family: Arial, sans-serif; /* Sets a clean font */
+    min-height: 100vh; /* Ensures full height coverage */
+}
+
+.header {
+    background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent background */
+    padding: 20px;
+    text-align: center;
+}
+
+.header a {
+    color: white; /* Text color */
+    text-decoration: none; /* No underline */
+    font-size: 24px; /* Font size */
+    font-weight: bold; /* Bold text */
+    text-transform: uppercase; /* Uppercase letters */
+    letter-spacing: 2px; /* Increase spacing between characters */
+}
+
+.navbar {
+    text-align: center; /* Center align text */
+    font-size: 18px; /* Slightly larger text */
+    line-height: 1.8; /* Space between lines for readability */
+}
+
+
+.yellow {
+    color: yellow; 
+}
+
+#secondparagraph {
+    color: black; 
+}
+
+h1 {
+    color: brown;
+    border: 2px solid black;
+    text-align: center;
+    padding: 20px;
+    margin: 25px;
+  
+}
+
