@@ -1,1 +1,19 @@
+.header a {
+    color: white; /* Text color */
+    text-decoration: none; /* No underline */
+    font-size: 26px; /* Font size */
+    font-weight: 700; /* Bold text */
+    font-family: 'lobster', serif; /* Elegant serif font */
+    text-transform: uppercase; /* Uppercase letters */
+    letter-spacing: 2px; /* Spacing between letters */
+    word-spacing: 4px; /* Spacing between words */
+}
+
+.navbar {
+    text-align: center; /* Center-align text */
+    font-size: 20px; /* Larger text for readability */
+    font-weight: normal; /* Regular font weight */
+    font-family: 'Verdana', sans-serif; /* Clean sans-serif font */
+    line-height: 1.6; /* Increase space between lines */
+}
 
