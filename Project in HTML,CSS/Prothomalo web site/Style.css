@@ -1,1 +1,86 @@
-prothomalo
+*{
+    border: 10px;
+}
+body{
+    font-family: 'poppins',sans-serif;
+    margin:0;
+}
+#header_area{
+    padding: 8px 0;
+    text-align: center;
+    border-bottom: 1px solid #ddd;
+}
+#main_menu{
+    padding: 10px 0;
+    border-bottom: 1px solid #ddd;
+
+}
+#main_menu ul{
+    margin:0;
+    padding: 0;
+    list-style: none;
+    text-align: center;
+}
+#main_menu ul li{
+
+    display: inline-block;
+    margin: 0 20px;
+}
+#main_menu ul li a{
+    color: black;
+    font-size: 18px;
+    font-weight: bold;
+    display: inline-block;
+    text-decoration: darkgoldenrod;
+}
+#main_menu ul li a:hover{
+  
+    color: #6ca2c8;
+    
+}
+#contact{
+    width: 1140px;
+    margin: 10px auto;
+    border-bottom: 1px solid #ddd;
+    overflow:hidden;
+    padding-bottom: 10px;
+}
+
+#main_content{
+    border: 70%;
+    padding: 10px 2%;
+    border-right: 1px solid #ddd;
+    margin: 10px;
+    float: left;
+    
+}
+
+#main_sideber {
+    width: 31%;
+    float: right;
+    padding: 10px 2%;
+  }
+  .child_sidebar {
+    margin-bottom: 15px;
+    border-bottom: 1px solid #ddd;
+    float: right;
+  }
+  .child_sidebar:last-child {
+    margin-bottom: 0px;
+    border-bottom: 0px solid;
+    float: right;
+  }
+  .child_sidebar img {
+    max-width: 100%;
+    float: left;
+  }
+  .child_sidebar h3 {
+    margin: 0 0 5px;
+    font-size: 18px;
+    float: right;
+  }
+  .child_sidebar h3 a {
+    color: #000;
+    text-decoration: none;
+    float: right;
+  }
